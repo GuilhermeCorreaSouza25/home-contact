@@ -26,7 +26,9 @@ function App() {
             <Footer/>
           </Route>
           <Route exact path='/contact'>
-            <Contact/>   
+            <Navbar/>
+            <Contact/> 
+            <Footer/>  
           </Route>
         </Switch>
       </Router>
